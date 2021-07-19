@@ -1,0 +1,94 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container-sm {
+  padding: 5% 10%;
+  color: hsl(0, 0%, 95%);
+}
+
+.col-lg-4 {
+  padding: 0;
+}
+
+.card-title {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 36px;
+  padding: 35px 0;
+  margin: 0;
+}
+
+.card-text {
+
+}
+
+.card-img-top {
+  width: 65px;
+  height: auto;
+}
+
+.card-body {
+  padding: 0;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.card {
+  padding: 60px;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btn {
+  border-radius: 50px;
+  border-width: 2px;
+  color: hsl(0, 0%, 95%);
+  width: 150px;
+  padding: 10px 10px;
+  margin-top: 80px;
+}
+.btn-sedans:hover {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-suvs:hover {
+  color: hsl(184, 100%, 22%)
+}
+
+.btn-luxury:hover {
+  color: hsl(179, 100%, 13%);
+}
+
+@media (max-width:992px) {
+  .container-sm{
+    padding: 0;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+}
+
+#att {
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  padding: 30px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
